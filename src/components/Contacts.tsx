@@ -5,7 +5,7 @@ import {
 } from '@tanstack/react-query';
 import { useAppSelector, useAppDispatch } from '../redux/hooks.ts';
 import { deleteContact } from '../redux/contactsSlice.ts';
-import"./contact.css"
+
 const Contacts: React.FC = () => {
 
   const navigate = useNavigate();
